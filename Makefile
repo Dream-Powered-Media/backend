@@ -13,6 +13,9 @@ install_requirements:
 run:
 	${PYTHON3} content/manage.py runserver
 
+create_migrations:
+	${PYTHON3} content/manage.py makemigrations
+
 migrations:
 	${PYTHON3} content/manage.py migrate
 
@@ -22,3 +25,6 @@ up_service:
 	make install_requirements
 	make migrations
 	make run
+
+superuser:
+	${PYTHON3} content/manage.py createsuperuser
