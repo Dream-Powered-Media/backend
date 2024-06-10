@@ -84,3 +84,8 @@
 
 - api/v1/media/full-list GET any
 - api/v1/media/grade POST participant
+
+
+### Поддержка
+
+Форма: https://forms.gle/jCtCTTQP4tjJcUBP8
